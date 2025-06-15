@@ -66,9 +66,9 @@ export default function SlideSection() {
                text-lg sm:text-2xl md:text-3xl lg:text-4xl
                max-w-[95%] sm:max-w-[80%]"
   >
-    Evolving the drive
+    Evolving the drive {" "}
     <br className="block sm:hidden" />
-    with <span className="font-bold">360-degree</span><span> nonwoven solutions</span>
+     with <span className="font-bold">360-degree</span><span> nonwoven solutions</span>
   </h1>
 </motion.div>
 
