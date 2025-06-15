@@ -1,6 +1,6 @@
 export default function HeroSection() {
   return (
-    <section className="relative w-full h-[80vh] overflow-hidden">
+    <section className="relative w-full h-[100vh] overflow-hidden">
       {/* Background Video */}
       <video
         autoPlay

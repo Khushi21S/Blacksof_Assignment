@@ -48,7 +48,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section className="bg-[#0067B1] text-white px-80 py-40"
+    <section id="contact" className="bg-[#0067B1] text-white px-80 py-40"
     style={{fontFamily: "Manrope, sans-serif" }}
     >
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
@@ -128,7 +128,7 @@ export default function ContactSection() {
 
           <button
             type="submit"
-            className="bg-white text-black font-medium px-6 py-1.5 rounded-full hover:bg-gray-200 transition"
+            className="bg-white text-black font-medium px-6 py-1.5 rounded-full hover:bg-gray-200 transition cursor-pointer"
           >
             Send
           </button>
