@@ -9,8 +9,8 @@ export default function AssetSelector({ assets, goToSlide }) {
         <button
           key={index}
           onClick={(e) => {
-            e.stopPropagation(); // ✅ prevent advancing to next slide on parent click
-            goToSlide(index + 2); // ✅ Assuming slide 2 is the start of assets, adjust if needed
+            e.stopPropagation(); 
+            goToSlide(index + 2); 
           }}
           className="flex flex-col items-center focus:outline-none"
         >

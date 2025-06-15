@@ -48,27 +48,29 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className="bg-[#0067B1] text-white px-80 py-40"
-    style={{fontFamily: "Manrope, sans-serif" }}
+    <section
+      id="contact"
+      className="bg-[#0067B1] text-white px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-32"
+      style={{ fontFamily: "Manrope, sans-serif" }}
     >
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
         {/* Left Column: Contact Info */}
         <div>
-          <h2 className="text-3xl font-semibold mb-2">Get in touch</h2>
+          <h2 className="text-3xl sm:text-4xl font-semibold mb-2">Get in touch</h2>
           <div className="w-10 border-t-2 border-white mb-6" />
 
-          <p className="mb-6 text-gray-100">For general enquiries</p>
+          <p className="mb-6 text-gray-100 text-base sm:text-lg">For general enquiries</p>
 
           <p className="font-semibold">Address :</p>
-          <p className="mb-4 text-gray-200">
+          <p className="mb-4 text-gray-200 text-sm sm:text-base">
             110, 16th Road, Chembur, Mumbai – 400071
           </p>
 
           <p className="font-semibold">Phone :</p>
-          <p className="mb-4 text-gray-200">+91 22 25208822</p>
+          <p className="mb-4 text-gray-200 text-sm sm:text-base">+91 22 25208822</p>
 
           <p className="font-semibold">Email :</p>
-          <p className="text-gray-200">info@supremegroup.co.in</p>
+          <p className="text-gray-200 text-sm sm:text-base">info@supremegroup.co.in</p>
         </div>
 
         {/* Right Column: Form */}
@@ -128,7 +130,7 @@ export default function ContactSection() {
 
           <button
             type="submit"
-            className="bg-white text-black font-medium px-6 py-1.5 rounded-full hover:bg-gray-200 transition cursor-pointer"
+            className="bg-white text-black font-medium px-6 py-2 rounded-full hover:bg-gray-200 transition cursor-pointer"
           >
             Send
           </button>
